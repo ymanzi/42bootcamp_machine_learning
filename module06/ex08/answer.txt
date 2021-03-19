@@ -1,0 +1,6 @@
+1. Hypothesis is the prediction function containing theta values that need to be adjusted to be able to create correct predictions.
+2. Cost function is used to measure effectiveness of hypothesis
+3. Linear Gradient descend is used to find the correct theta values for correct hypothesis. It uses the gradient to increase or decrease theta values towards convergence, convergence meaning the ideal theta value with lowest cost, it uses to alpha to make incremental steps that are not too slow to converge or to big steps whereby it will go over the convergence point. Number of steps indicates how much you will change the theta values until they potentially converge. Gradient is slope of cost function line, calculated with function derivative.
+4. When the learning rate is too high you will go over the convergence point.
+5. Convergence will occur but algorithm will be very slow.
+6. Mean standard deviation; Calculates the mean of errors with a certain hypothesis.
